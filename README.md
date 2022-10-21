@@ -7,6 +7,16 @@
 ## Preview Example
 ![](img/img.png)
 
+## Api
+[MoviesDB] (https://www.themoviedb.org/?language=en-US)
+
 ## Link Example
 [TrendingMovies] (https://trendingmoviesja.surge.sh/)
+
+## Programming Languages
+* HTML, CSS, JavaScript.
+
+## Contributors
+* Nova Merida
+* Daniel Moros
 
