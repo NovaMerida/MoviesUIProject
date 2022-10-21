@@ -1,187 +1,208 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
-body {
-    background-color: black;
-    color: white;
+body{
+  background-color: black;  
+  color: white;
 }
-
-.nav-wrapper {
-    background-color: black;
-    background-blend-mode: darken;
-}
-
-.nav-wrapper a {
-    font-family: 'Oswald', sans-serif;
-}
-
-nav a {
-  color: aqua;
-  font-size: 3rem;
-  text-align: center;
-}
-
-#button {
-  color: aqua;
+.nav-wrapper{
+  background-color: black;
   outline: auto;
 }
 
-input {
-    width: 90%;
-    color: white;
+
+.card-panel {
+ padding: 20px;
+ color: white;
+ background-color: black;
 }
 
+nav-wrapper d-flex {
+  background-color: black;
+}
+
+.card {
+  background-color: black;
+}
+
+.nav-wrapper a{
+  font-family: 'Oi',cursive;
+  color: aqua;
+  font-family: 'Oswald', sans-serif;
+}
+input{
+  width: 90%;
+  color: white;
+}
+.main{
+  height: 90vh;
+  background-size: cover;
+  background-color: black;
+  border-radius: 20px;
+  padding: 2%;
+}
 
 #row-body::-webkit-scrollbar{
-    display: none;
-}
+  display: none;
 
+}
 #row-body {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    height: 90%;
-    overflow-y: auto;
+  -ms-overflow-style:none;
+  scrollbar-width: none;
+  height: 90%;
+  overflow-y: auto;
 }
+.card-image img{
+  transition: 0.3s;
+  outline: auto;
+  outline-color: black;
 
-.card-image img {
-    transition: 0.4s;
 }
-
-.card-image img:hover {
-    scale: 1.2;
+.card-image img:hover{
+  scale: 1.1;
 }
-
 .overlay {
-    position: relative;
-    bottom: 0;
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;
-    transition: .5s ease;
+  position: relative;
+  bottom: 0;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  transition: .5s ease;
 }
 
-    .overlay2 {
-    position: absolute;
-    bottom: 0;
-    right: -15%;
-    background-size: cover;
-    overflow: hidden;
-    width: 15%;
-    height: 92%;
-    transition: .5s ease;
-    background-color: black;
-    padding: 1%;
-    }
 
-    .col:hover .overlay2 {
-        right: 0;
-        margin-bottom: 1%;
-        
-          }
-        
-          .text {
-          color: white;
-          font-size: 20px;
-          position: relative;
-          top: 50%;
-          white-space: nowrap;
-          word-wrap: break-word;
-          text-align: center;
-        }
-        
-        .text2 {
-            color: white;
-            font-size: 20px;
-            width: 100%;
-            word-wrap: break-word;
-            text-align: center;
-          }
-          .lds-roller {
-            display: inline-block;
-            position: relative;
-            width: 80px;
-            height: 80px;
-          }
-          .lds-roller div {
-            animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-            transform-origin: 40px 40px;
-          }
-          .lds-roller div:after {
-            content: " ";
-            display: block;
-            position: absolute;
-            width: 7px;
-            height: 7px;
-            border-radius: 50%;
-            background: #fff;
-            margin: -4px 0 0 -4px;
-          }
-          .lds-roller div:nth-child(1) {
-            animation-delay: -0.036s;
-          }
-          .lds-roller div:nth-child(1):after {
-            top: 63px;
-            left: 63px;
-          }
-          .lds-roller div:nth-child(2) {
-            animation-delay: -0.072s;
-          }
-          .lds-roller div:nth-child(2):after {
-            top: 68px;
-            left: 56px;
-          }
-          .lds-roller div:nth-child(3) {
-            animation-delay: -0.108s;
-          }
-          .lds-roller div:nth-child(3):after {
-            top: 71px;
-            left: 48px;
-          }
-          .lds-roller div:nth-child(4) {
-            animation-delay: -0.144s;
-          }
-          .lds-roller div:nth-child(4):after {
-            top: 72px;
-            left: 40px;
-          }
-          .lds-roller div:nth-child(5) {
-            animation-delay: -0.18s;
-          }
-          .lds-roller div:nth-child(5):after {
-            top: 71px;
-            left: 32px;
-          }
-          .lds-roller div:nth-child(6) {
-            animation-delay: -0.216s;
-          }
-          .lds-roller div:nth-child(6):after {
-            top: 68px;
-            left: 24px;
-          }
-          .lds-roller div:nth-child(7) {
-            animation-delay: -0.252s;
-          }
-          .lds-roller div:nth-child(7):after {
-            top: 63px;
-            left: 17px;
-          }
-          .lds-roller div:nth-child(8) {
-            animation-delay: -0.288s;
-          }
-          .lds-roller div:nth-child(8):after {
-            top: 56px;
-            left: 12px;
-          }
-          @keyframes lds-roller {
-            0% {
-              transform: rotate(0deg);
-            }
-            100% {
-              transform: rotate(360deg);
-            }
-          }
-          
-          #key{
-            position: relative;
-            top: 0;
-            left: 0;
-          }
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  right: -15%;
+  background-size: cover;
+  overflow: hidden;
+  width: 15%;
+  height: 92%;
+  transition: .5s ease;
+  background-color: black;
+  padding: 1%;
+
+
+}
+
+.col:hover .overlay2 {
+right: 0;
+margin-bottom: 1%;
+
+}
+
+.text {
+color: lightgray;
+font-weight: bold;
+font-family: 'Oswald', sans-serif;
+font-size: 13px;
+position: relative;
+top: 50%;
+white-space: nowrap;
+word-wrap: break-word;
+text-align: center;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+}
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#key{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 390px) {
+  main{
+    width: 760px;
+  }
+}
