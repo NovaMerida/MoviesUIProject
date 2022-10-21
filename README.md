@@ -4,6 +4,9 @@
 
 * Features on the app: The app has a search feature to search for any movie and also to see the ratings of the movie. Has a feature where you hover the movie and it will show you the description of the movie. You can also type what genre you are looking for in the search bar and find movies that way.
 
+## Preview Example
+![](img/img.png)
+
 ## Link Example
 [TrendingMovies] (https://trendingmoviesja.surge.sh/)
 
